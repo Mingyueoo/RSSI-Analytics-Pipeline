@@ -1,0 +1,36 @@
+# Project Path Configuration
+paths:
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  results_dir: "results"
+  plots_dir: "results/plots"
+  report_dir: "results/reports"
+
+# Device Mapping (UUID to readable labels)
+devices:
+  "403841af-d006-4ce8-854d-b6ab105f150f": "Device A"
+  "bbbe7f51-5630-4df7-bd19-84c2ecea35f3": "Device B"
+
+# Scenario Mapping (raw strings to display names)
+scenarios:
+  "static_1m_5min": "Static 5min"
+  "static_1m_15min": "Static 15min"
+  "Doze_mode_1m": "Doze Mode"
+  "pocket_1m": "Pocket"
+  "metal_interference_1m": "Metal Interference"
+
+# Analysis Parameters
+analysis:
+  time_tolerance_seconds: 1  # Time tolerance for data alignment (±1s)
+  rssi_min: -100
+  rssi_max: 0
+
+# Plotting Style
+plotting:
+  style: "seaborn-v0_8-whitegrid"
+  dpi: 300
+  colors:
+    primary: "#6BA6CD"
+    secondary: "#FFB366"
+    success: "#7FCDBB"
+    danger: "#FF7F7F"

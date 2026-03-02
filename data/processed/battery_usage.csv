@@ -1,0 +1,31 @@
+﻿Trial_ID,Device,Scenario,Duration(h),Start%,End%,Drain%,Drain%/h
+trial_001,Phone A,Idle baseline -ON,3,100,92,8,2.67 
+trial_001,Phone A,Idle baseline -OFF,3,100,100,0,0.00 
+trial_001,Phone A,Foreground scan,3,100,88,12,4.00 
+trial_001,Phone A,Background scan,3,100,92,8,2.67 
+trial_001,Phone A,Doze mode,3,100,100,0,0.00 
+trial_001,Phone B,Idle baseline -ON,3,100,91,9,3.00 
+trial_001,Phone B,Idle baseline -OFF,3,100,100,0,0.00 
+trial_001,Phone B,Foreground scan,3,100,89,11,3.67 
+trial_001,Phone B,Background scan,3,100,91,9,3.00 
+trial_001,Phone B,Doze mode,3,100,100,0,0.00 
+trial_002,Phone A,Idle baseline -ON,3,100,94,6,2.00 
+trial_002,Phone A,Idle baseline -OFF,3,100,100,0,0.00 
+trial_002,Phone A,Foreground scan,3,100,89,11,3.67 
+trial_002,Phone A,Background scan,3,100,89,11,3.67 
+trial_002,Phone A,Doze mode,3,100,100,0,0.00 
+trial_002,Phone B,Idle baseline -ON,3,100,94,6,2.00 
+trial_002,Phone B,Idle baseline -OFF,3,100,100,0,0.00 
+trial_002,Phone B,Foreground scan,3,100,87,13,4.33 
+trial_002,Phone B,Background scan,3,100,92,8,2.67 
+trial_002,Phone B,Doze mode,3,100,100,0,0.00 
+trial_003,Phone A,Idle baseline -ON,3,100,90,10,3.33 
+trial_003,Phone A,Idle baseline -OFF,3,100,100,0,0.00 
+trial_003,Phone A,Foreground scan,3,100,89,11,3.67 
+trial_003,Phone A,Background scan,3,100,92,8,2.67 
+trial_003,Phone A,Doze mode,3,100,99,1,0.33 
+trial_003,Phone B,Idle baseline -ON,3,100,89,11,3.67 
+trial_003,Phone B,Idle baseline -OFF,3,100,100,0,0.00 
+trial_003,Phone B,Foreground scan,3,100,89,11,3.67 
+trial_003,Phone B,Background scan,3,100,94,6,2.00 
+trial_003,Phone B,Doze mode,3,100,100,0,0.00 

@@ -169,7 +169,6 @@ Edit the `path` in `config/config.yaml`
 
 
 ### Add Devices
-在 `config/config.yaml` 的 `devices` 部分添加新的 UUID 映射。
 Add a new UUID mapping to the `devices` section of `config/config.yaml`.
 
 ### Add Scenarios
@@ -193,7 +192,6 @@ Modify the style, DPI, and color in the plotting section of `config/config.yaml`
 - Devices and scenarios must use mappings from the configuration file.
 - Devices and scenarios must use mappings from the configuration file.
 - Functions should ideally accept a `config` parameter (optional).
-
 
 
 ## Version Information

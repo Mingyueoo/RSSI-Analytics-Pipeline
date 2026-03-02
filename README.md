@@ -100,7 +100,7 @@ pip install pandas numpy matplotlib seaborn pyyaml
 
 ### 2. Prepare Data
 
-将原始数据文件放入 `data/raw/` 目录：
+Put the raw data file in the `data/raw/` directory:
 - `rssi_history.csv`
 - `ground_truth.csv`
 - `battery_usage.csv`（Required for battery analysis）
@@ -170,12 +170,13 @@ Edit the `path` in `config/config.yaml`
 
 ### Add Devices
 在 `config/config.yaml` 的 `devices` 部分添加新的 UUID 映射。
+Add a new UUID mapping to the `devices` section of `config/config.yaml`.
 
 ### Add Scenarios
-在 `config/config.yaml` 的 `scenarios` 部分添加新的场景映射。
+Add a new scene mapping to the `scenarios` section of `config/config.yaml`.
 
 ### Modify Plotting Styles
-在 `config/config.yaml` 的 `plotting` 部分修改样式、DPI 和颜色。
+Modify the style, DPI, and color in the plotting section of `config/config.yaml`.
 
 ## Development Instructions
 
